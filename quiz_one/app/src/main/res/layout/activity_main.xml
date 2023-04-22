@@ -12,6 +12,112 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="691dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/loginText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/facebook"
+                android:layout_width="283dp"
+                android:layout_height="71dp"
+                android:layout_marginTop="30dp"
+
+                android:text="Facebook"
+                android:textSize="18sp"
+                app:cornerRadius="40dp" />
+
+            <Button
+                android:id="@+id/google"
+                android:layout_width="283dp"
+                android:layout_height="71dp"
+                android:layout_marginTop="10dp"
+
+                android:text="Google"
+                android:textSize="18sp"
+                app:cornerRadius="40dp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_text"
+                android:drawablePadding="8dp"
+                android:hint="Name"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_text"
+                android:drawablePadding="8dp"
+                android:hint="Email"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_text"
+                android:drawablePadding="8dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_text"
+                android:drawablePadding="8dp"
+                android:hint="Phone number"
+                android:inputType="number"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="283dp"
+                android:layout_height="71dp"
+                android:layout_marginTop="10dp"
+                android:text="Register"
+                android:textSize="18sp"
+                app:cornerRadius="40dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
 
 
 </LinearLayout>
+<!--            "
+                android:backgroundTint="@color/lavande"
+                android:backgroundTint="@color/lavande"
+                android:background="@drawable/custom_text"
+                android:background="@drawable/custom_text"
+                android:background="@drawable/custom_text"
+                android:background="@drawable/custom_text"
+                android:backgroundTint="@color/lavande"-->
